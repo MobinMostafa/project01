@@ -162,7 +162,7 @@ section{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
-.box img{
+.box-img{
   width: 62px;
   margin-bottom: 25px;
 }
@@ -181,4 +181,75 @@ section{
 
 }
 /* pillars of bangladesh css end */
+
+/* vision section css start  */
+#vision-section p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.vision-box{
+    width: 410.67px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24;
+    padding: 32px;
+    border-radius: 16px;
+
+}
+.vision-box-bg-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision-box-bg-2{
+    background: rgb(198, 228, 214);
+}
+.vision-box-bg-3{
+    background: rgb(247, 235, 207);
+}
+
+.vision-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 20px;
+    color:#fff;
+    border-radius: 8px;
+    
+}
+.vision-btn-bg-1{
+    background: rgb(84, 144, 245);
+    border: 1px solid rgb(84, 144, 245);
+}
+.vision-btn-bg-1:hover{
+   color:rgb(84, 144, 245);
+   background: transparent;
+  
+}
+
+.vision-btn-bg-2{
+    background: rgb(9, 161, 92);
+    border: 1px solid rgb(9, 161, 92);
+}
+.vision-btn-bg-2:hover{
+   color:rgb(9, 161, 92);
+   background: transparent;
+
+}
+
+.vision-btn-bg-3{
+    background: rgb(255, 194, 57);
+    border: 1px solid rgb(255, 194, 57);
+}
+.vision-btn-bg-3:hover{
+   color:rgb(255, 194, 57);
+   background: transparent;
+   
+}
+/* vision section css end */
 
