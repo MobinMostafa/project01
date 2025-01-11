@@ -19,6 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .wrapper {
     width: 1280px;
@@ -55,6 +56,13 @@ a{
 
 img{
  width: 100%;
+}
+p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
 }
 
 .section-title{
@@ -116,7 +124,6 @@ section{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    padding: 17px 34px;
     border-radius: 8px;
     display: inline-block;
 }
@@ -125,7 +132,22 @@ section{
     background-color: transparent;
     color: #006A50;
 }
-
+.py-13{
+   padding-top: 13px;
+   padding-bottom: 13px;
+}
+.py-17{
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.px-34{
+ padding-left: 34px;
+ padding-right: 34px;
+}
+.px-26{
+    padding-left: 26px;
+    padding-right: 26px;
+}
 /* header css end */
 
 
@@ -189,13 +211,7 @@ section{
 /* pillars of bangladesh css end */
 
 /* vision section css start  */
-#vision-section p{
-    color: rgba(14, 14, 14, 0.7);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-bottom: 32px;
-}
+
 .vision-box{
     width: 410.67px;
     height: 325px;
@@ -264,7 +280,7 @@ section{
     background-repeat: no-repeat;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-   background-color: #fff;
+    background-color: #fff;
     padding: 48px 24px;
     margin-top: 32px;
 }
@@ -355,4 +371,44 @@ section{
    stroke: #fff;
 }
 /* opinion section start  */
+
+/* news section start  */
+.news-wrapper{
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    gap: 32px;
+}
+.news-left img{
+   width: 408px;
+   border-radius: 24px;
+}
+
+.news-right h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.news-right img{
+  width: 134px;
+  margin-top: 12px;
+}
+.date{
+    margin: 12px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgba(14, 14, 14, 0.7)
+}
+.date .d{
+  margin-right: 12px;
+}
+
+.new-w-2{
+ margin: 24px 0;
+ flex-direction: row-reverse;
+}
+
+/* news section end */
 
