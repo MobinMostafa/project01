@@ -226,6 +226,9 @@ section{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
+.box:hover{
+    background-color: rgb(198, 228, 214);
+}
 .box-img{
   width: 62px;
   margin-bottom: 25px;
@@ -263,11 +266,20 @@ section{
 .vision-box-bg-1{
     background: rgba(84, 144, 245, 0.2);
 }
+.vision-box-bg-1:hover{
+    background: rgba(118, 159, 229, 0.2);
+}
 .vision-box-bg-2{
-    background: rgb(198, 228, 214);
+    background: rgb(191, 230, 212);
+}
+.vision-box-bg-2:hover{
+    background: rgb(189, 216, 203);
 }
 .vision-box-bg-3{
     background: rgb(247, 235, 207);
+}
+.vision-box-bg-3:hover{
+    background: rgb(236, 229, 212);
 }
 
 .vision-btn{
