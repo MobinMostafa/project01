@@ -69,8 +69,14 @@ img{
 .mb-16{
     margin-bottom: 16px;
 }
+.mt-4{
+   margin-top: 4px;
+}
 section{
    margin-bottom: 80px;
+}
+.p-24{
+ padding: 24px;
 }
 
 
@@ -251,5 +257,102 @@ section{
    background: transparent;
    
 }
+
+.quote-wrap{
+    background-image: url('../assets/quote-bg.png');
+    background-position: top 24px left 24px;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+   background-color: #fff;
+    padding: 48px 24px;
+    margin-top: 32px;
+}
+.quote-p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  
+}
+.designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 /* vision section css end */
+
+/* opinion section start  */
+.question-wrap{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+.question-header{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+  
+}
+.question-left h3{
+    color: rgb(14, 14, 14);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.question-right h3{
+    color: rgb(14, 14, 14);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.question-body-left{
+ flex-grow: 1;
+ border: 1px solid rgba(14, 14, 14, 0.15);
+ border-top: 0;
+}
+.question-body-right{
+ flex-grow: 0;
+ border: 1px solid rgba(14, 14, 14, 0.15);
+ border-top: 0;
+ border-left: 0;
+}
+
+.question-body-left p{
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.question-body-right .btn{
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px;
+}
+.question-body-right .icon{
+ margin-left: 5px;
+}
+
+.question-body-right .btn:hover{
+    background:#006A50;
+    border-color: #006A50;;
+    color: #fff;
+}
+.question-body-right .btn:hover svg path{
+   stroke: #fff;
+}
+/* opinion section start  */
 
